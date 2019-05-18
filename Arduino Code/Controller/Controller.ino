@@ -10,6 +10,7 @@ int rightState = 0;
 int d = 0;
 
 void setup() {
+  // put your setup code here, to run once:
   Serial.begin(9600);
   pinMode(leftPin, INPUT);
   pinMode(startPin, INPUT);
